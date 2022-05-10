@@ -14,14 +14,7 @@ import { types } from "../types/types";
  */
 
 
-const initialState = {
-    uid: 'asljkf2150235',
-    name: 'Usuario',
-    dir: {
-        calle: 12,
-        altura: 15
-    }
-};
+const initialState = {};
 
 export const authReducer = (state = initialState, action) => {
     switch (action.type) {
