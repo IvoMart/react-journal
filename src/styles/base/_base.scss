@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0%;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: $primary;
+    &:hover {
+        text-decoration: underline;
+    }
+}
