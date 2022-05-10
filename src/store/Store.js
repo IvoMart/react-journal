@@ -24,5 +24,5 @@ const reducer = {
 export const store = configureStore({
     reducer,
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(),
-    // devTools: process.env.NODE_ENV !== 'production'
+    devTools: process.env.NODE_ENV !== 'production'
 })
